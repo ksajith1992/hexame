@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.MainHead_withBg{
+    background-image: url('../../Assets/Images/top-bar-bg.png');
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/* Searchbar  */
+.search {
+    width: 60px;
+    height: 60px;
+    transform: 0.5s;
+    overflow: hidden;
+    position: relative;
+    border-radius: 60px;
+    box-shadow: 0 0 0 0 5px #7532d4;
+  }
+  
+  .search.active {
+    width: 360px;
+    background-color: #ff0;
+  }
+  
+  .search .icon {
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    z-index: 1000;
+    cursor: pointer;
+    position: absolute;
+    background: transparent;
+    border-radius: 60px;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .search .icon:before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #333333;
+    transform: translate(-4px, -4px);
+  }
+  
+  .search .icon:after {
+    content: "";
+    width: 3px;
+    height: 12px;
+    position: absolute;
+    background: #333333;
+    transform: translate(6px, 6px) rotate(315deg);
+  }
+  
+  .search .input {
+    left: 60px;
+    width: 300px;
+    height: 60px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search .input input {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ff0;
+    outline: none;
+    font-size: 18px;
+    padding: 10px;
+    position: absolute;
+  }
+  
+  .clear {
+    top: 50%;
+    right: 15px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    cursor: pointer;
+    background: #ff0;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50%);
+  }
+  
+  .clear:before {
+    width: 1px;
+    height: 15px;
+    content: "";
+    position: absolute;
+    background: #999;
+    transform: rotate(45deg);
+  }
+  
+  .clear:after {
+    width: 1px;
+    height: 15px;
+    content: "";
+    position: absolute;
+    background: #999;
+    transform: rotate(315deg);
+  }
+  .icons_head{
+    margin-left: 25px;
+    width: 40px;
+  }
+  /* banner */
+.banner_container{
+    display: flex;
+    justify-content: center;
+}
+.banner1{
+    width: 500px;
+    border-radius: 25px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.smallbanner{
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    height: 140px;
+}
+/* varients */
+.carusel_banner{
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    height: 120px;
+}
+/* add to cart */
+.product_name{
+    font-family:'Roboto';
+    font-size: 36px;
+    color: #333333;
+    font-weight: bold;
+}
+.product_price{
+    background-color: #fef200;
+    width: 80px;
+}
+.product_rate{
+    color: #c3c3c3;
+}
+.product_decription{
+    color:#333333;
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+.displayed-text{
+    color:#808080;
+    font-size: 20;
+    font-family: 'Roboto';
+}
+.read-more-button{
+    color:#007bff;
+    font-size: 20;
+    font-family: 'Roboto';
+}
+.form-select{
+    width: 100px;
+}
+.product_text{
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: lighter;
+    color: #333333;
+}
+.product_size{
+    background-color: #e6e6e6;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+.add_cart{
+    font-size: 24px;
+    font-family: 'Roboto';
+    color: #333333;
+    font-weight: bold;
+    background-color: #fef200;
+    border: none;
+    border-radius: 25px;
+}
+.add_cart:hover{
+    background-color: #fef200;
+    color: #333333;
+    border: 1px solid #007bff;
+}
+/* review */
+.banner_review{
+    background-color: #f2f2f2;
+}
+.butonadd_rating{
+    background: transparent;
+    color: #2E86C1;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Roboto';
+    border: none;
+}
